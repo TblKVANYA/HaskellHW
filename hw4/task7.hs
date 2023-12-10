@@ -1,4 +1,3 @@
-import Language.Haskell.TH (Body)
 map_ :: (a -> b) -> [a] -> [b]
 map_ f l = foldr (\x xs -> f x:xs) [] l
 

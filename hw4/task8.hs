@@ -1,4 +1,3 @@
-import Data.Binary.Get (label)
 takeWhile_ :: (a -> Bool) -> [a] -> [a]
 takeWhile_ f (x:xs)
     | f x = x : takeWhile_ f xs
